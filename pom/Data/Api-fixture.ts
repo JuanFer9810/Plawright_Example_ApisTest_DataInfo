@@ -5,7 +5,7 @@ type ApiFixtures = {
 };
 
 export const test = base.extend<ApiFixtures>({
-  ApiContext: async ({ browser }, use) => {
+  ApiContext: async ({ }, use) => {
     const baseURL = process.env.API_URL!;
     const headerName = process.env.API_HEADER!;
     const apiKey = process.env.API_KEY!;
