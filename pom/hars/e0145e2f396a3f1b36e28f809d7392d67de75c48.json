@@ -1,0 +1,1 @@
+{"get":"status","parameters":[],"errors":[],"results":0,"paging":{"current":1,"total":1},"response":{"account":{"lastname":"Perez Upegui","email":"juanfer9810@gmail.com"},"subscription":{"plan":"Free","end":"2027-03-19T00:00:00+00:00","active":true},"requests":{"current":13,"limit_day":100}}}
