@@ -3,7 +3,7 @@ import {test as apitest} from '../pom/Data/Api-fixture';
 
 apitest.describe('tests API - Football HTTP GET', () => {
 
-  apitest('Validate status API response,structure, properties', async ({ ApiContext }) => {
+  apitest('Validate status API response,structure, properties', async ({ ApiContext}) => {
 
     const response = await ApiContext.get('/status');
     // validate status code
